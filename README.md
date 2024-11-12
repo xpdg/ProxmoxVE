@@ -1,3 +1,9 @@
+<div style="border: 2px solid #d1d5db; padding: 20px; border-radius: 8px; background-color: #f9fafb;">
+  <h2 align="center">Proxmox VE Helper-Scripts: A (Network Delayed) Community Legacy</h2>
+  <p1>This is a fork of the project below. It aims to support (my) slow homelabs, in my case the network tests always fail as the containers fail to grab an IP addr on time.</p1>
+  <p>Of course all credits go to the awesome <a href="https://github.com/tteck">tteck</a> and the <a href="https://github.com/community-scripts">community</a>
+</div>
+
 <div align="center">
   <p align="center">
     <a href="#">
