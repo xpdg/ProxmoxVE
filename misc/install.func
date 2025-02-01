@@ -118,6 +118,7 @@ setting_up_container() {
   export LANG=${locale_line}
   echo $tz >/etc/timezone
   ln -sf /usr/share/zoneinfo/$tz /etc/localtime
+  sleep 120
   for ((i = RETRY_NUM; i > 0; i--)); do
     if [ "$(hostname -I)" != "" ]; then
       break
