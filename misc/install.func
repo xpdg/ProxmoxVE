@@ -22,7 +22,7 @@ color() {
   
   # System
   RETRY_NUM=10
-  RETRY_EVERY=3
+  RETRY_EVERY=60
 
   # Icons
   CM="${TAB}✔️${TAB}${CL}"
